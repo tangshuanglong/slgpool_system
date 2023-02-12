@@ -1,0 +1,60 @@
+[04-Dec-2020 09:49:13 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 55
+[04-Dec-2020 09:49:13 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 55
+[04-Dec-2020 09:49:13 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 55
+[04-Dec-2020 09:49:13 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 55
+[04-Dec-2020 09:49:13 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 57
+[04-Dec-2020 09:49:13 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 57
+[04-Dec-2020 09:49:13 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 57
+[04-Dec-2020 09:49:13 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 58
+[04-Dec-2020 10:13:35 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 55
+[04-Dec-2020 10:13:35 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 55
+[04-Dec-2020 10:13:35 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 55
+[04-Dec-2020 10:13:35 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 55
+[04-Dec-2020 10:13:35 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 57
+[04-Dec-2020 10:13:35 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 57
+[04-Dec-2020 10:13:35 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 57
+[04-Dec-2020 10:13:35 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 58
+[04-Dec-2020 10:21:36 Asia/Shanghai] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/logs/web_log/2020_12_04.log): failed to open stream: Permission denied in /home/vagrant/www_api/system/app/Lib/MyCommon.php:82
+Stack trace:
+#0 [internal function]: Swoft\Error\DefaultErrorDispatcher->handleError()
+#1 /home/vagrant/www_api/system/app/Lib/MyCommon.php(82): file_put_contents()
+#2 /home/vagrant/www_api/system/app/Lib/MyQuit.php(65): App\Lib\MyCommon::write_log()
+#3 /home/vagrant/www_api/system/app/Lib/MyQuit.php(108): App\Lib\MyQuit::returnRst()
+#4 /home/vagrant/www_api/system/app/Exception/Handler/HttpExceptionHandler.php(62): App\Lib\MyQuit::returnMessage()
+#5 /home/vagrant/www_api/system/vendor/swoft/http-server/src/HttpErrorDispatcher.php(38): App\Exception\Handler\HttpExceptionHandler->handle()
+#6 /home/vagrant/www_api/system/vendor/swoft/http-server/src/HttpDispatcher.php(86): Swoft\Http\Server\HttpErrorDispatcher->run()
+#7 /home/vagrant/www_api/system/vendor/swoft/http-server/src/Swoole/RequestListener.php(42): Swoft\Http\Server\HttpDispatcher->d in /home/vagrant/www_api/system/app/Lib/MyCommon.php on line 82
+[04-Dec-2020 10:21:36 Asia/Shanghai] PHP Fatal error:  Uncaught ErrorException: Uncaught ErrorException: file_put_contents(/logs/web_log/2020_12_04.log): failed to open stream: Permission denied in /home/vagrant/www_api/system/app/Lib/MyCommon.php:82
+Stack trace:
+#0 [internal function]: Swoft\Error\DefaultErrorDispatcher->handleError()
+#1 /home/vagrant/www_api/system/app/Lib/MyCommon.php(82): file_put_contents()
+#2 /home/vagrant/www_api/system/app/Lib/MyQuit.php(65): App\Lib\MyCommon::write_log()
+#3 /home/vagrant/www_api/system/app/Lib/MyQuit.php(108): App\Lib\MyQuit::returnRst()
+#4 /home/vagrant/www_api/system/app/Exception/Handler/HttpExceptionHandler.php(62): App\Lib\MyQuit::returnMessage()
+#5 /home/vagrant/www_api/system/vendor/swoft/http-server/src/HttpErrorDispatcher.php(38): App\Exception\Handler\HttpExceptionHandler->handle()
+#6 /home/vagrant/www_api/system/vendor/swoft/http-server/src/HttpDispatcher.php(86): Swoft\Http\Server\HttpErrorDispatcher->run()
+#7 /home/vagrant/www_api/system/vendor/swoft/http-server/src/Swoole/RequestListener.php(42): Swoft\Http in /home/vagrant/www_api/system/app/Lib/MyCommon.php on line 82
+[04-Dec-2020 10:25:34 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 55
+[04-Dec-2020 10:25:34 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 55
+[04-Dec-2020 10:25:34 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 55
+[04-Dec-2020 10:25:34 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 55
+[04-Dec-2020 10:25:34 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 57
+[04-Dec-2020 10:25:34 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 57
+[04-Dec-2020 10:25:34 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 57
+[04-Dec-2020 10:25:34 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 58
+[05-Dec-2020 09:09:16 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 55
+[05-Dec-2020 09:09:16 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 55
+[05-Dec-2020 09:09:16 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 55
+[05-Dec-2020 09:09:16 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 55
+[05-Dec-2020 09:09:16 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 57
+[05-Dec-2020 09:09:16 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 57
+[05-Dec-2020 09:09:16 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 57
+[05-Dec-2020 09:09:16 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 58
+[07-Dec-2020 09:33:01 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 55
+[07-Dec-2020 09:33:01 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 55
+[07-Dec-2020 09:33:01 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 55
+[07-Dec-2020 09:33:01 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 55
+[07-Dec-2020 09:33:01 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 57
+[07-Dec-2020 09:33:01 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 57
+[07-Dec-2020 09:33:01 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 57
+[07-Dec-2020 09:33:01 Asia/Shanghai] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/vagrant/www_api/system/app/Lib/MyIP.php on line 58
